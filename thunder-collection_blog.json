@@ -1,0 +1,47 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "blog",
+    "dateExported": "2023-12-13T11:25:45.250Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "02a5c7ed-b08c-49d1-bd4a-6368171b5392",
+            "colId": "a2b7f7a4-453d-4587-823d-5d59bb5c402a",
+            "containerId": "",
+            "name": "register",
+            "url": "http://127.0.0.1:8000/api/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-13T10:05:54.454Z",
+            "modified": "2023-12-13T10:58:39.416Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"\",\n  \"email\": \"email\",\n  \"password\": \"\",\n  \"role\": \"role\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c31e234b-c1b0-4b47-a980-daec7187ef9e",
+            "colId": "a2b7f7a4-453d-4587-823d-5d59bb5c402a",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:8000/api/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-13T11:08:00.370Z",
+            "modified": "2023-12-13T11:09:53.705Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"pm@pm.hu\",\n  \"password\": \"pass\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
