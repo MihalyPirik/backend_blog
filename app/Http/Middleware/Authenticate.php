@@ -19,6 +19,6 @@ class Authenticate extends Middleware
     protected function unauthenticated($request, array $guards)
     {
         $baseController = new BaseController();
-        abort($baseController->sendError('Unauthorized', ['error' => 'Sikertelen bejelentkezés!'], 401));
+        abort($baseController->sendError('Unauthorized', ['error' => 'Bejelentkezés kötelező!'], 401));
     }
 }

@@ -54,4 +54,10 @@ class AuthController extends BaseController
             return $this->sendError('Unauthorized', ['error' => 'Sikertelen bejelentkezés!'], 401);
         }
     }
+
+    public function logout()
+    {
+        auth()->user()->tokens()->delete();
+        return $this->sendResponse('', 'Sikeres kijelentkezés!');
+    }
 }
