@@ -1,0 +1,65 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "blog",
+    "dateExported": "2023-12-14T09:24:06.481Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d1bb5dcc-48bb-4c3d-a40b-c3b2a296730b",
+            "colId": "d6f14c98-3b08-4bec-bf2c-4cf79be9ac59",
+            "containerId": "",
+            "name": "register",
+            "url": "http://127.0.0.1:8000/api/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-14T08:58:44.677Z",
+            "modified": "2023-12-14T09:04:17.613Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"\",\n  \"email\": \"email\",\n  \"password\": \"\",\n  \"role\": \"role\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e1318667-6f7f-4958-956c-d69303633951",
+            "colId": "d6f14c98-3b08-4bec-bf2c-4cf79be9ac59",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:8000/api/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-14T08:58:44.678Z",
+            "modified": "2023-12-14T08:58:44.678Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"pm@pm.hu\",\n  \"password\": \"pass\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "13b008be-4121-43ed-8765-7245bd8fa2b2",
+            "colId": "d6f14c98-3b08-4bec-bf2c-4cf79be9ac59",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://127.0.0.1:8000/api/logout",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-12-14T09:09:22.168Z",
+            "modified": "2023-12-14T09:16:53.608Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|m34BSXuN6wkl3AfAQwnBGoTCCJ7rHSKKNj0Ld4lveeb8f4c7"
+            },
+            "tests": []
+        }
+    ]
+}
